@@ -1,0 +1,25 @@
+.topnav {
+    margin: auto;
+    background-color: rgb(243, 167, 26);
+    overflow: auto;
+    width: 81%;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.topnav a.hover, .active {
+    background-color: rgb(140, 79, 0);
+}
+
+.topnav .icon {
+    display: none;
+}
