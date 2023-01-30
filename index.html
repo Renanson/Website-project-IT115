@@ -7,98 +7,110 @@
         <meta name="description" content="Outlines the case for exploring and settling Venus.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="nav.css" />
     </head>
     <body>
-        <main>
-            <h1>The Case for Colonizing Venus</h1>
-            <figure>
-                <img src="images/NASA_Cloud_City_on_Venus.jpg" alt="picture of blimp-like craft and structures stationed above a layer of clouds">
-                <figcaption>Artist's rendering of NASA's High Altitude Venus Operational Concept (HAVOC)</figcaption>
-            </figure>
-            <section>
-            <h2>Why Venus?</h2>
-                <h3>A hellish wasteland</h3>
-                <p>The surface of Venus is extremely uninhabitable. The atmosphere mainly 
-                    consists of poisonous carbon dioxide. Temperatures at the equator average 
-                    around 450°C, which is hot enough to melt lead, and the atmospheric pressure 
-                    is 96 bar, or equivalent to 1km underwater on Earth. A thick cloud layer 
-                    makes sunlight scarce and the clouds themselves are made of sulfuric acid.</p>
-                <h3>Above the clouds</h3>
-                <p>However, as NASA engineer Geoffrey A. Landis observed in his 2003 paper 
-                    <cite>Colonization of Venus</cite>, 50km above the surface Venus is the most 
-                    earthlike place in the Solar System besides the Earth itself. Temperatures 
-                    there range from 0-75°C and pressure is close to 1 bar. Since 50km is above 
-                    the cloud layer, solar energy is abundant, yet the atmosphere is still thick 
-                    enough at this altitude to provide protection from cosmic rays equivalent to 
-                    Earth's atmosphere at sea level. Finally, gravity on Venus is about 90% of 
-                    Earth's, which could prevent bone loss and other health problems associated 
-                    with microgravity.</p>
-                <p>On this page we will summarize the work of Landis and subsequent findings by
-                    NASA on the long term feasibility of exploring and settling Venus.
-                </p> 
-            </section>
-            <section>
-                <!--Kinda going back and forth about whether to talk more about the 
-                    scientific motivation here or stay focused on making the case for 
-                    long term settlement. csl-->
-                <h2>Pre-colonization</h2>
-                <p>Crewed exploration could begin with a design similar to Nasa's High Altitude Venus 
-                    Operational Concept, or <a href="https://ntrs.nasa.gov/citations/20160006580">HAVOC</a> 
-                    for short. This would be a thirty-day mission aboard a blimp-like craft, 
-                    testing the various systems and maneuvers required to maintain a habitat long-term.
-                    The craft would be solar-powered and coated in Teflon to protect it from sulfuric 
-                    acid aerosol droplets.</p>
-                <p>If a more permanent presence is established in the atmosphere, it could be a more 
-                    practical location from which to operate <a href="https://www.nasa.gov/directorates/spacetech/niac/2012_phase_I_fellows_landis.html">
-                    surface-exploring robots</a> than one in orbit. In addition to the advantages discussed above, 
-                    signals would take less time to travel between the habitat and robots on the surface, 
-                    allowing near real-time monitoring and control.</p>
+        <header>
+            <h1>Colonizing Venus</h1>
+            <nav class="topnav" id="myTopnav">
+                <a href="index.html" class="active">Home</a>
+                <a href="#section-1">Why Venus?</a>
+                <a href="#section-2">Pre-colonization</a>
+                <a href="#section-3">Long Term Settlement</a>
+                <a href="#section-4">Sources</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </nav>
+        </header>
+        <div class="wrapper">
+            <img src="images/NASA_Cloud_City_on_Venus.jpeg" alt="picture of blimp-like craft and structures stationed above a layer of clouds">
+              <section>
+                    <p>On the right: Artist's rendering of NASA's High Altitude Venus Operational Concept (HAVOC).</p>
+                    <h2 class="subheader" id="section-1">Why Venus?</h2>
+                    <h3>A hellish wasteland</h3>
+                    <p>The surface of Venus is extremely uninhabitable. The atmosphere mainly 
+                        consists of poisonous carbon dioxide. Temperatures at the equator average 
+                        around 450°C, which is hot enough to melt lead, and the atmospheric pressure 
+                        is 96 bar, or equivalent to 1km underwater on Earth. A thick cloud layer 
+                        makes sunlight scarce and the clouds themselves are made of sulfuric acid.</p>
+                    <h3>Above the clouds</h3>
+                    <p>However, as NASA engineer Geoffrey A. Landis observed in his 2003 paper 
+                        <cite>Colonization of Venus</cite>, 50km above the surface Venus is the most 
+                        earthlike place in the Solar System besides the Earth itself. Temperatures 
+                        there range from 0-75°C and pressure is close to 1 bar. Since 50km is above 
+                        the cloud layer, solar energy is abundant, yet the atmosphere is still thick 
+                        enough at this altitude to provide protection from cosmic rays equivalent to 
+                        Earth's atmosphere at sea level. Finally, gravity on Venus is about 90% of 
+                        Earth's, which could prevent bone loss and other health problems associated 
+                        with microgravity.</p>
+                    <p>On this page we will summarize the work of Landis and subsequent findings by
+                        NASA on the long term feasibility of exploring and settling Venus.
+                    </p> 
                 </section>
-            <section>
-            <h2>Long-term settlement</h2>
-            <h3>Cities in the sky</h3>
-                <p>Thanks to the relatively high density of its mostly carbon-dioxide atmosphere, 
-                    a breathable air mixture of nitrogen and oxygen is a lifting gas on Venus. 
-                    This means that the full volume of an aerostat can be used as a habitat. 
-                    In fact, the lifting force of air on Venus is so great that a city-sized 
-                    volume of it can lift a city. Such a city would float at about an altitude 
-                    of 50km, where temperatures stay around 75°C. A seperate volume 
-                    filled with a lighter gas like hydrogen could be used to lift habitats 5km 
-                    higher, where temperatures average a pleasant 27°C (Wikipedia contributors, "Colonization of Venus"). 
-                    In either case, air pressure inside such a habitat would be nearly equal to 
-                    its surroundings, so ruptures would result in slow leaks rather than the 
-                    explosive decompression that would occur in space or on Mars.</p>
-            <h3>Sustaining a colony</h3>
-                <p>Although free oxygen and water are virtually nonexistent on Venus, the materials
-                    needed to sustain a colony exist there in abundance in forms future colonists can 
-                    unlock with sufficient energy. Electrolysis of sulfuric acid and carbon dioxide 
-                    can provide water and oxygen respectively. Carbon dioxide and nitrogen captured 
-                    from the atmosphere can also be used to grow plants which in turn would provide 
-                    more oxygen and food. Ore for construction and industry can be mined from the 
-                    surface with robots and sent to the colony with aircraft or high-temperature 
-                    fullerene tethers.</p>
-                <p>While the rotational period of Venus is 243 Earth days, much of its atmosphere 
-                    rotates significantly faster than the planet itself. An atmospheric habitat 
-                    untethered to the surface would thus travel around the planet in about four 
-                    Earth days, creating a slow but still-reasonable day/night cycle.</p>
-            <h3>Asteroid mining</h3>
-                <p>In the long term, an outpost on Venus could be used to reach asteroids more 
-                    quickly than launching missions from Earth, Mars, or even the asteroid belt 
-                    itself. This is due to Venus' relatively fast orbital velocity, giving craft 
-                    launched from Venus a greater starting velocity as well as increasing the 
-                    number of chances a craft has to enter a transfer orbit to anywhere in the 
-                    asteroid belt.</p>
+
+                <section>
+                    <h2 class="subheader" id="section-2">Pre-colonization</h2>
+                    <p>Crewed exploration could begin with a design similar to Nasa's High Altitude Venus 
+                        Operational Concept, or <a target="_blank" rel="noopener noreferrer" href="https://ntrs.nasa.gov/citations/20160006580">HAVOC</a> 
+                        for short. This would be a thirty-day mission aboard a blimp-like craft, 
+                        testing the various systems and maneuvers required to maintain a habitat long-term.
+                        The craft would be solar-powered and coated in Teflon to protect it from sulfuric 
+                        acid aerosol droplets.</p>
+                    <p>If a more permanent presence is established in the atmosphere, it could be a more 
+                        practical location from which to operate <a target="_blank" rel="noopener noreferrer" href="https://www.nasa.gov/directorates/spacetech/niac/2012_phase_I_fellows_landis.html">
+                        surface-exploring robots</a> than one in orbit. In addition to the advantages discussed above, 
+                        signals would take less time to travel between the habitat and robots on the surface, 
+                        allowing near real-time monitoring and control.</p>
                 </section>
-        <h2>Sources cited</h2>
-        <section class="sources_cited">
-            <p class="citation">Landis, Geoffrey A. “Colonization of Venus.” <cite>AIP Conference Proceedings</cite>, AIP, 2003, https://doi.org/10.1063/1.1541418.</p>
-            <p class="citation">Wikipedia contributors. “Colonization of Venus.” <cite>Wikipedia</cite>, 7 Jan. 2023, en.wikipedia.org/wiki/Colonization_of_Venus.</p>
-            <p class="citation">“Venus Landsailing Rover.” <cite>NASA</cite>, www.nasa.gov/directorates/spacetech/niac/2012_phase_I_fellows_landis.html.</p>
-            <p class="citation">Arney, Dale C., and Chris Jones. “HAVOC: High Altitude Venus Operational Concept - an Exploration Strategy for Venus.” <cite>AIAA Space and Astronautics Forum and Exposition (SPACE 2015)</cite>, Aug. 2015.</p>
-            <p class="citation">Jones, Christopher A., et al. “High Altitude Venus Operational Concept (HAVOC): Proofs of Concept.” <cite>AIAA SPACE 2015 Conference and Exposition</cite>, American Institute of Aeronautics and Astronautics, Aug. 2015, https://doi.org/10.2514/6.2015-4545.</p>
-        </section>
-    </main>
-        
-        <script src="" async defer></script>
+
+                <section>
+                    <h2 class="subheader" id="section-3">Long-term settlement</h2>
+                    <h3>Cities in the sky</h3>
+                    <p>Thanks to the relatively high density of its mostly carbon-dioxide atmosphere, 
+                        a breathable air mixture of nitrogen and oxygen is a lifting gas on Venus. 
+                        This means that the full volume of an aerostat can be used as a habitat. 
+                        In fact, the lifting force of air on Venus is so great that a city-sized 
+                        volume of it can lift a city. Such a city would float at about an altitude 
+                        of 50km, where temperatures stay around 75°C. A seperate volume 
+                        filled with a lighter gas like hydrogen could be used to lift habitats 5km 
+                        higher, where temperatures average a pleasant 27°C (Wikipedia contributors, "Colonization of Venus"). 
+                        In either case, air pressure inside such a habitat would be nearly equal to 
+                        its surroundings, so ruptures would result in slow leaks rather than the 
+                        explosive decompression that would occur in space or on Mars.</p>
+                    <h3>Sustaining a colony</h3>
+                    <p>Although free oxygen and water are virtually nonexistent on Venus, the materials
+                        needed to sustain a colony exist there in abundance in forms future colonists can 
+                        unlock with sufficient energy. Electrolysis of sulfuric acid and carbon dioxide 
+                        can provide water and oxygen respectively. Carbon dioxide and nitrogen captured 
+                        from the atmosphere can also be used to grow plants which in turn would provide 
+                        more oxygen and food. Ore for construction and industry can be mined from the 
+                        surface with robots and sent to the colony with aircraft or high-temperature 
+                        fullerene tethers.</p>
+                    <p>While the rotational period of Venus is 243 Earth days, much of its atmosphere 
+                        rotates significantly faster than the planet itself. An atmospheric habitat 
+                        untethered to the surface would thus travel around the planet in about four 
+                        Earth days, creating a slow but still-reasonable day/night cycle.</p>
+                    <h3>Asteroid mining</h3>
+                    <p>In the long term, an outpost on Venus could be used to reach asteroids more 
+                        quickly than launching missions from Earth, Mars, or even the asteroid belt 
+                        itself. This is due to Venus' relatively fast orbital velocity, giving craft 
+                        launched from Venus a greater starting velocity as well as increasing the 
+                        number of chances a craft has to enter a transfer orbit to anywhere in the 
+                        asteroid belt.</p>
+                </section>
+
+                <section>
+                    <h2 class="subheader" id="section-4">Sources cited</h2>
+                    <p>Landis, Geoffrey A. “Colonization of Venus.” <cite><a target="_blank" rel="noopener noreferrer" href="https://ntrs.nasa.gov/api/citations/20030022668/downloads/20030022668.pdf">AIP Conference Proceedings</a></cite>, AIP, 2003.</p>
+                    <p>Wikipedia contributors. “Colonization of Venus.” <cite><a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Terraforming_of_Venus">Wikipedia</a></cite>, 7 Jan. 2023. </p>
+                    <p>“Venus Landsailing Rover.” <cite><a target="_blank" rel="noopener noreferrer" href="https://www.nasa.gov/directorates/spacetech/niac/2012_phase_I_fellows_landis.html">NASA.</a></cite></p>
+                    <p>Arney, Dale C., and Chris Jones. “HAVOC: High Altitude Venus Operational Concept - an Exploration Strategy for Venus.” <cite><a target="_blank" rel="noopener noreferrer" href="https://arc.aiaa.org/doi/book/10.2514/MSPACE15">AIAA Space and Astronautics Forum and Exposition (SPACE 2015)</a></cite>, Aug. 2015.</p>
+                    <p>Jones, Christopher A., et al. “High Altitude Venus Operational Concept (HAVOC): Proofs of Concept.” <cite><a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.2514/6.2015-4545">AIAA SPACE 2015 Conference and Exposition</a></cite>, American Institute of Aeronautics and Astronautics, Aug. 2015, .</p>
+                </section>
+
+            <footer>
+                <p>&copy; 2023. CSS, design and layout by Andy Davila. HTML by Andy Davila & Clara Lopez. Research by Clara Lopez.</p>
+                <p>Edition and Version Control by Renan Sonza, All Rights Reserved ~ </p>
+           </footer>
+        </div>
     </body>
 </html>
